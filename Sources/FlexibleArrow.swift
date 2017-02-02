@@ -28,7 +28,7 @@ public class FlexibleArrow: UIView {
     public var color: UIColor = .darkGray
     public var lineWidth: CGFloat = 4.0
     public var head: CGFloat = 8.0
-    public var animation: FlexibleArrowAniation = .default
+    public var animation: FlexibleArrowAnimation = .default
     
     private lazy var shapeLayer: CAShapeLayer = {
         let shape = CAShapeLayer()
@@ -136,29 +136,5 @@ public class FlexibleArrow: UIView {
             path.addLine(to: CGPoint(x: center.x, y: size.height - arrowInset.bottom))
         }
         return path
-    }
-}
-
-@objc public enum FlexibleArrowDirection: Int {
-    case up
-    case down
-    case left
-    case right
-    case horizontalLine
-    case verticalLine
-}
-
-public class FlexibleArrowAniation: NSObject {
-    let duration: Double
-    let timingFunction: CAMediaTimingFunction?
-    
-    init(duration: Double, timingFunction: CAMediaTimingFunction?) {
-        self.duration = duration
-        self.timingFunction = timingFunction
-    }
-    
-    @objc(defaultAnimation)
-    static var `default`: FlexibleArrowAniation {
-        return FlexibleArrowAniation(duration: 0.35, timingFunction: nil)
     }
 }

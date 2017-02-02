@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D525DE81E42F4FB00C65BBA /* FlexibleArrowAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D525DE71E42F4FB00C65BBA /* FlexibleArrowAnimation.swift */; };
 		4DB4F20D1E2F5D59001D42FF /* FlexibleArrow.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DB4F20B1E2F5D59001D42FF /* FlexibleArrow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DB4F20E1E2F5D59001D42FF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB4F20C1E2F5D59001D42FF /* Info.plist */; };
 		4DB4F2101E2F5DFB001D42FF /* FlexibleArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB4F20F1E2F5DFB001D42FF /* FlexibleArrow.swift */; };
+		4DE823291E42F4BD00340298 /* FlexibleArrowDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE823281E42F4BD00340298 /* FlexibleArrowDirection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D27013C1E2F5BEF00242041 /* FlexibleArrow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlexibleArrow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D525DE71E42F4FB00C65BBA /* FlexibleArrowAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexibleArrowAnimation.swift; sourceTree = "<group>"; };
 		4DB4F20B1E2F5D59001D42FF /* FlexibleArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexibleArrow.h; sourceTree = "<group>"; };
 		4DB4F20C1E2F5D59001D42FF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DB4F20F1E2F5DFB001D42FF /* FlexibleArrow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexibleArrow.swift; sourceTree = "<group>"; };
+		4DE823281E42F4BD00340298 /* FlexibleArrowDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexibleArrowDirection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				4DB4F20F1E2F5DFB001D42FF /* FlexibleArrow.swift */,
+				4D525DE71E42F4FB00C65BBA /* FlexibleArrowAnimation.swift */,
+				4DE823281E42F4BD00340298 /* FlexibleArrowDirection.swift */,
 				4DB4F20B1E2F5D59001D42FF /* FlexibleArrow.h */,
 				4DB4F20C1E2F5D59001D42FF /* Info.plist */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D525DE81E42F4FB00C65BBA /* FlexibleArrowAnimation.swift in Sources */,
+				4DE823291E42F4BD00340298 /* FlexibleArrowDirection.swift in Sources */,
 				4DB4F2101E2F5DFB001D42FF /* FlexibleArrow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
